@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8a6f8e4-267e-4342-8577-ab42264609db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/roveralgorithme.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/roveralgorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roveralgorithme.iml" beforeDir="false" afterPath="$PROJECT_DIR$/roveralgorithm.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,26 +102,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585413824004</updated>
-      <workItem from="1585413826009" duration="1896000" />
+      <workItem from="1585413826009" duration="2196000" />
     </task>
+    <task id="LOCAL-00001" summary="update project's name and readme">
+      <created>1585415760433</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585415760433</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update readme">
+      <created>1585415922454</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585415922454</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update project's name and readme" />
+    <MESSAGE value="update readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="update readme" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="388" y="8" key="CommitChangelistDialog2" timestamp="1585415759964">
+    <state x="388" y="8" key="CommitChangelistDialog2" timestamp="1585416052296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="388" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585415759964" />
+    <state x="388" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585416052296" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1585415345175">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585415345175" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1585415781781">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1585415929908">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585415781781" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585415929908" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585415059471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

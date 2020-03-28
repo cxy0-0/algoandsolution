@@ -1,4 +1,4 @@
-# rover Algorithm
+# Rover Algorithm
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars.
 This plateau, which is curiously rectangular, must be navigated by the
@@ -47,11 +47,19 @@ The program will be run with this command line:
  	java -jar rover.jar input.txt
 
 # Command-line Instructions
+
 **Prerequisites**  
-Install the latest version of Java(13) and Maven(3.6.3).  
+
+Install the latest version of Java(13) and Maven(3.6.3). 
+ 
 You may need to set your JAVA_HOME and MAVEN_HOME.  
+
 **Set up IntelliJ IDEA Preferences**  
+
 You may need to set your project structure.   
+
 `Ctrl+Alt+Maj+S to check your project SDK and your project language's level`  
+
 # Sources
+
 `git clone https://gitlab.com/algoandsolution/roveralgorithm.git`
