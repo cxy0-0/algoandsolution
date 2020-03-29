@@ -7,6 +7,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AppUtils {
+    /**
+     *
+     * @param filePath file's path
+     * @return read the file's content and return to a list
+     */
     public static List<String> readFileInput (String filePath) {
         BufferedReader br = null;
         List<String> lines = new ArrayList<>();

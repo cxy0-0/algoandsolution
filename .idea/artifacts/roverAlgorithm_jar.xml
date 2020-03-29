@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="roverAlgorithm:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/roverAlgorithm_jar</output-path>
+    <root id="archive" name="roverAlgorithm.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="roverAlgorithm" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

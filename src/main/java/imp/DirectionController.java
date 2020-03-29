@@ -1,8 +1,8 @@
 package imp;
 
+import directionEnum.CommandEnum;
 import dto.RoverDTO;
 import dto.GridDTO;
-import dto.CommandEnum;
 
 import java.util.List;
 
@@ -10,6 +10,17 @@ public class DirectionController {
 
     private static final int DISTANCE = 1;
 
+    /**
+     *
+     * @param grid  the upper-right coordinates of the plateau
+     * @param roverDTO  the rover's position
+     * @param commandList a series of instructions
+     * @return set Rover's position
+     * N = X, Y+1
+     * S = X, Y-1
+     * E = X+1, Y
+     * W = X-1, Y
+     */
     public static RoverDTO getRoverPosition(GridDTO grid, RoverDTO roverDTO, List<CommandEnum> commandList) {
 
         for ( CommandEnum commandEnum : commandList) {
@@ -52,6 +63,12 @@ public class DirectionController {
         return roverDTO;
     }
 
+    /**
+     *
+     * @param grid  the upper-right coordinates of the plateau
+     * @param roverDTO  the rover's position
+     * To check if the direction of rover is out of the grid
+     */
     public static void checkBorderLimit(GridDTO grid, RoverDTO roverDTO) {
         if ( roverDTO.getY() > grid.getHeight() || roverDTO.getX() > grid.getWidth()) {
             System.out.println("The direction of rover is out of the grid !!!!");

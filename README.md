@@ -41,10 +41,16 @@ Expected Output:
 1 3 N
 5 1 E
 
-COMMAND LINE:
-The program will be run with this command line:
+The JAR has already prepared for test. please find the JAR and input.txt file in 
 
- 	java -jar rover.jar input.txt
+`out/artifacts/roverAlgorithm_jar/roverAlgorithm.jar`
+
+`out/artifacts/roverAlgorithm_jar/input.txt`
+
+COMMAND LINE:
+The program will be run with this command line using GIT or CMD:
+
+ 	java -jar --enable-preview roverAlgorithm.jar input.txt
 
 # Command-line Instructions
 
@@ -61,5 +67,6 @@ You may need to set your project structure.
 `Ctrl+Alt+Maj+S to check your project SDK and your project language's level`  
 
 # Sources
+To get the sources of project:  
 
 `git clone https://gitlab.com/algoandsolution/roveralgorithm.git`

@@ -1,5 +1,6 @@
 package dto;
 
+import directionEnum.OrientationEnum;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -16,6 +17,13 @@ public class RoverDTO implements Serializable {
     private OrientationEnum orient;
     private int orientation;
 
+    /**
+     *
+     * @param x co-ordinates x
+     * @param y  co-ordinates y
+     * @param orient a letter representing one of the four cardinal compass points
+     * Initialize the rover's position
+     */
     public RoverDTO(int x, int y, OrientationEnum orient) {
         this.x = x;
         this.y = y;
@@ -41,6 +49,10 @@ public class RoverDTO implements Serializable {
 
     }
 
+    /**
+     *
+     * @param direction set direction
+     */
     public void setOrientationAndCommand(int direction) {
         this.orientation = direction % 4;
         switch (this.orientation ) {
